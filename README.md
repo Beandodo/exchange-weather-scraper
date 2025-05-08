@@ -38,3 +38,27 @@ requirements.txt：依賴套件清單
 .gitignore：忽略的檔案設定
 
 
+💡 匯率爬蟲小工具程式解說：
+API 說明：
+
+使用 ExchangeRate API（免費無需 API 金鑰）
+
+API 格式：
+
+arduino
+複製
+編輯
+https://api.exchangerate.host/latest?base=USD&symbols=TWD
+base：基準貨幣
+
+symbols：目標貨幣
+
+程式流程：
+
+使用者輸入 基準貨幣 和 目標貨幣
+
+程式呼叫 API 並取得匯率
+
+顯示匯率資訊
+
+
