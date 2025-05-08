@@ -1,4 +1,12 @@
 #https://open-meteo.com/
+# exchange-weather-scraper/
+# ├── .venv/
+# ├── weather.py
+# ├── exchange.py
+# ├── main.py
+# ├── README.md
+# ├── requirements.txt
+# └── .gitignore
 import requests
 
 def get_coordinates(city):
